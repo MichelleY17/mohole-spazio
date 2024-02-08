@@ -1,0 +1,38 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+/* end Reset */
+body{
+    background: rgb(231, 231, 231);
+}
+header ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 20px;
+    list-style: none;
+}
+header ul li{
+    padding-right: 10px;
+    font-size: 30px;
+}
+header ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container{
+    display: flex;
+    flex:wrap;
+    padding: 30px;
+    justify-content:center;
+}
+.title{
+    display: flex;
+    
+    align-items: center;
+}
